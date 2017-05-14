@@ -1,0 +1,8 @@
+A very simplistic VNC server, demonstrating just how easy it is to implement a VNC server.
+
+Specification followed: RFB 3.8 (http://www.realvnc.com/docs/rfbproto.pdf)
+
+Lots of stuff is missing (compression, hooks for handlers, etc), but
+is done this way to keep the source simple.
+
+TCP functions are also broken out to keep the source simple.
